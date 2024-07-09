@@ -103,8 +103,8 @@ function library:addTab(name)
         for i,v in next, library.tabbuttons do
             local state = v == newButton
             if state then
-                library:Tween(v.element, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(90, 97, 255)})
-                library:Tween(v.text, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = Color3.fromRGB(90, 97, 255)})
+                library:Tween(v.element, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(140, 255, 90)})
+                library:Tween(v.text, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = Color3.fromRGB(140, 255, 90)})
             else
                 library:Tween(v.element, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {BackgroundColor3 = Color3.fromRGB(255, 255, 255)})
                 library:Tween(v.text, TweenInfo.new(0.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {TextColor3 = Color3.fromRGB(255, 255, 255)})
@@ -195,7 +195,7 @@ function library:addTab(name)
             
             mid.Name = "mid"
             mid.Parent = tobble
-            mid.BackgroundColor3 = Color3.fromRGB(69, 23, 255)
+            mid.BackgroundColor3 = Color3.fromRGB(0, 219, 2)
             mid.BorderColor3 = Color3.fromRGB(60, 60, 60)
             mid.BorderSizePixel = 0
             mid.Size = UDim2.new(0, 8, 0, 8)
@@ -284,7 +284,7 @@ function library:addTab(name)
                 keybind.Size = UDim2.new(0, 51, 0, 10)
                 
                 button.Parent = keybind
-                button.BackgroundColor3 = Color3.fromRGB(187, 131, 255)
+                button.BackgroundColor3 = Color3.fromRGB(131, 255, 207)
                 button.BackgroundTransparency = 1.000
                 button.BorderSizePixel = 0
                 button.Position = UDim2.new(-0.270902753, 0, 0, 0)
@@ -361,7 +361,7 @@ function library:addTab(name)
                 
                 mid.Name = "mid"
                 mid.Parent = colorpicker
-                mid.BackgroundColor3 = Color3.fromRGB(69, 23, 255)
+                mid.BackgroundColor3 = Color3.fromRGB(23, 255, 126)
                 mid.BorderColor3 = Color3.fromRGB(60, 60, 60)
                 mid.BorderSizePixel = 0
                 mid.Size = UDim2.new(1, 0, 1, 0)
