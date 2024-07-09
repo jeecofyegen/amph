@@ -85,7 +85,7 @@ function library:addTab(name)
     newTab.left.Size = UDim2.new(0.00780241657, 215, 1.00000012, 0)
     newTab.right.Size = UDim2.new(0.00780241657, 215, 1.00000012, 0)
     newTab.left.BorderSizePixel = 1
-    newTab.left.BorderColor3 = Color3.fromRGB(8, 252, 154)
+    newTab.left.BorderColor3 = Color3.fromRGB(0, 138, 83)
 
 
     table.insert(library.tabbuttons,newButton)
