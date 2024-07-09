@@ -159,7 +159,7 @@ function library:addTab(name)
         title.TextColor3 = Color3.fromRGB(255, 255, 255)
         title.TextSize = 13.000
         title.TextStrokeTransparency = 0.000
-        title.TextXAlignment = Enum.TextXAlignment.Left
+        title.TextXAlignment = Enum.TextXAlignment.Centre
 
         local group = {}
         function group:addToggle(args)
