@@ -129,7 +129,7 @@ function library:addTab(name)
 
         groupbox.Parent = newTab[pos]
         groupbox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        groupbox.BorderColor3 = Color3.fromRGB(27, 27, 27)
+        groupbox.BorderColor3 = Color3.fromRGB(8, 252, 154)
         groupbox.BorderSizePixel = 1
         groupbox.Size = UDim2.new(0, 215, 0, 8)
         groupbox.ZIndex = groupCount
