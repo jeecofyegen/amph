@@ -6,7 +6,7 @@ local localPlayer    = players.LocalPlayer
 local mouse          = localPlayer:GetMouse()
 
 local library = {
-    cheatname = "frag.pub";
+    cheatname = "Amphibia.lua";
     colorpicking = false;
     tabbuttons = {};
     tabs = {};
@@ -15,7 +15,7 @@ local library = {
     scrolling = false;
     multiZindex = 200;
     toInvis = {};
-    libColor = Color3.fromRGB(90, 97, 255);
+    libColor = Color3.fromRGB(8, 252, 154);
     disabledcolor = Color3.fromRGB(233, 0, 0);
     blacklisted = {Enum.KeyCode.W,Enum.KeyCode.A,Enum.KeyCode.S,Enum.KeyCode.D,Enum.UserInputType.MouseMovement}
 }
