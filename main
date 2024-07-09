@@ -85,7 +85,7 @@ function library:addTab(name)
     newTab.left.Size = UDim2.new(0.00780241657, 215, 1.00000012, 0)
     newTab.right.Size = UDim2.new(0.00780241657, 215, 1.00000012, 0)
     newTab.left.BorderSizePixel = 1
-    newTab.left.BorderColor3 = Color3.fromRGB(0, 138, 83)
+    newTab.left.BorderColor3 = Color3.fromRGB(0, 99, 60)
 
 
     table.insert(library.tabbuttons,newButton)
@@ -1336,14 +1336,14 @@ function library:addTab(name)
 
             mid.Name = "mid"
             mid.Parent = colorpicker_2
-            mid.BackgroundColor3 = Color3.fromRGB(69, 23, 255)
+            mid.BackgroundColor3 = Color3.fromRGB(23, 242, 129)
             mid.BorderColor3 = Color3.fromRGB(60, 60, 60)
             mid.BorderSizePixel = 0
             mid.Size = UDim2.new(1, 0, 1, 0)
 
             front.Name = "front"
             front.Parent = mid
-            front.BackgroundColor3 = Color3.fromRGB(240, 142, 214)
+            front.BackgroundColor3 = Color3.fromRGB(141, 240, 205)
             front.BorderColor3 = Color3.fromRGB(0, 0, 0)
             front.Size = UDim2.new(1, 0, 1, 0)
 
@@ -1392,7 +1392,7 @@ function library:addTab(name)
 
             picker.Name = "picker"
             picker.Parent = main
-            picker.BackgroundColor3 = Color3.fromRGB(232, 0, 255)
+            picker.BackgroundColor3 = Color3.fromRGB(0, 255, 203)
             picker.BorderColor3 = Color3.fromRGB(0, 0, 0)
             picker.BorderSizePixel = 0
             picker.Position = UDim2.new(0, 0, 0, 0)
@@ -1417,7 +1417,7 @@ function library:addTab(name)
 
             hue.Name = "hue"
             hue.Parent = main_2
-            hue.BackgroundColor3 = Color3.fromRGB(255, 0, 178)
+            hue.BackgroundColor3 = Color3.fromRGB(0, 255, 108)
             hue.BorderColor3 = Color3.fromRGB(0, 0, 0)
             hue.BorderSizePixel = 0
             hue.Size = UDim2.new(0, 20, 0, 99)
