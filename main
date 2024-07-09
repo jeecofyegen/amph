@@ -42,7 +42,7 @@ menu.bg.TopBar.Text.Text = library.cheatname
 inputService.InputEnded:Connect(function(key, gpe)
     if gpe then return end
 
-    if key.KeyCode == Enum.KeyCode.RightShift then
+    if key.KeyCode == Enum.KeyCode.Insert then
         menu.Enabled = not menu.Enabled
         library.scrolling = false
         library.colorpicking = false
